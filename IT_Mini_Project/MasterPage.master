@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background: url('Images/OTBS.jpg') no-repeat; background-size:cover; height: 569px;">
+
+    <form id="form1" runat="server">
+    <div style="height: 187px" >
+        &nbsp;<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/MITManipalEducation.png" Width="271px" Height="50px" />
+&nbsp;&nbsp;
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="A question bank portal for the university examinations"></asp:Label>
+        <br />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Logout" />
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+    
+</body>
+</html>

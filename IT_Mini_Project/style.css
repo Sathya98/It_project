@@ -1,0 +1,700 @@
+
+/* HTML tags ------------------------------------------------ */ 
+/* If there any modifications related to body please check with styleAdmin.css file to change the pages related the Fall travel,
+ spring search and Session Registration. These pages have
+different style for header and footer but they share the same css for body from this file -- vkraghav */
+a 				{ color: #264E80; }
+a:hover 		{ text-decoration: none; }
+
+body {
+	font: normal 13px "helvetica neue", helvetica, arial, sans-serif;
+	background: #F7F7F7 url(../images/background.gif) repeat-x;
+	margin: 0;
+}
+button 			{ margin-right: 12px; font-size: 14px; }
+p, ul, h3 		{ margin: 0; }
+
+h1 {
+	width: 181px;
+	height: 65px;
+	background: transparent url(../images/logo_mymit.gif) no-repeat;
+	float: left;
+	margin: 27px 0 29px 0;
+}
+h1 a {
+	display: block;
+	height: 100%;
+	text-indent: -9999px;
+}
+h2 {
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 12px;
+	margin: 0 0 20px 0;
+}
+.small_h2{
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 0px solid #CCC;
+	padding-bottom: 12px;
+	margin: 0 0 20px 0;
+	}
+h3 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #FFF;
+	padding: 12px 0 10px 30px;
+	
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+h4 {
+	font-weight: normal;
+	font-size: 21px;
+	float: left;
+	margin: 4px 30px 0 0;
+}
+h5 {
+	font-weight: normal;
+	font-size: 17px;
+	border-bottom: 3px solid #999;
+	margin: 0 0 16px 0;
+	padding-bottom: 8px;
+}
+img				{ border: 0; }
+
+#login label {
+	font-size: 16px;
+	display: block;
+	width: 120px;
+	float: left;
+}
+/* If there are any modifications related to body please check with styleAdmin.css file to change the pages related the Fall travel,
+ spring search and Session Registration. These pages have
+different style for header and footer but they share the same css for body from this file. this changes was addressed as part of fixing 
+ADMIT-233 -- https://jira.mit.edu/jira/browse/ADMIT-233 -- vkraghav */
+/* Layout Styles -------------------------------------------- */
+
+.left			{ float: left; }
+.right 			{ float: right; }
+
+/* header colors */
+.orange 		{ background-color: #cc6300; }
+.red 			{ background-color: #c25e5e; }
+.blue 			{ background-color: #44869E; }
+.grey			{ color: #666666; }
+.green			{background-color: #609412}
+.purple			{background-color: #946391}
+.general		{background-color: #9C5D22}
+a.btn {
+	font-size: 14px;
+	color: #FFF;
+	background-color: #587E21;
+	padding: 5px 8px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	padding: 8px 22px 8px 22px;
+}
+a:hover.btn 	{ background-color: #85A852; }
+	
+.copyBox {
+	color: #333;
+	font-size: 14px;
+	line-height: 140%;
+	padding: 22px 28px 34px 28px;
+	margin-bottom: 33px;
+	border-right: 3px solid #E8E8E8;
+	border-bottom: 3px solid #E8E8E8;
+	border-left: 3px solid #E8E8E8;
+}
+#col1			{ float: left; }
+#col1 {
+	margin: 0 30px 0 20px;
+	width: 250px;
+}
+
+#col2 {
+	float: right;
+	border-left: 1px solid #E8E8E8;
+	padding: 0 20px;
+	width: 639px;
+}
+
+#container, #footer div {
+	margin: 0 auto;
+	width: 980px;
+	xpadding: 0 20px;
+}
+
+.controls {
+	padding: 12px 0;
+	border-bottom: 2px solid #E8E8E8;
+}
+.controls h4 {
+	width: 500px;
+	float: right;
+	margin: 0;
+	
+}
+.controlsLast{
+	padding: 0px 0px 30px;
+}
+.controlsLast h4 {
+	width: 500px;
+	float: right;
+	margin: 0;
+}
+.controlsLastTop{
+	padding: 0px 0px 30px;
+}
+.controlsLastTop h4 {
+	width: 400px;
+	float: right;
+	margin: 0;
+}
+#header 		{ background-color: transparent; padding: 0 20px; }
+#header p#tagline {
+	color: #FFF;
+	float: left;
+	width: 320px;
+	margin: 32px 0 0 20px;
+	line-height: 140%;
+}
+#header ul li {
+	float: left;
+	list-style-type: none;
+}
+
+#footer {
+	position: relative;
+	bottom:0;
+	height: 80px;
+	background-color: #EEF5E1;
+	border-top: 5px solid #C9D2BC;
+	clear: left;
+	
+}
+#footer div {
+	width: 940px;
+	padding-top: 5px;
+}
+#footer div p {
+	float: right;
+	color: #777;
+	margin-top: 16px;
+	font-size: 13px
+}
+
+
+.logoutAlert {
+	color: #B40404;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: normal;
+	text-align: center;
+	background-color: #FFF;
+		margin: 0 auto;
+	width: 980px;
+	xpadding: 0 20px;
+	}
+#main {
+	background-color: #FFF;
+	overflow: hidden;
+	
+	clear: left;
+	padding: 45px 0;
+	min-height: 480px;
+	height: auto;
+}
+#main2 {
+	background-color: #FFF;
+	overflow: hidden;
+	
+	clear: left;
+	padding: 45px;
+	min-height: 480px;
+	height: auto;
+}
+#nav {
+	padding-top: 8px;
+	height: 46px;
+	clear:both;
+}
+#nav p 			{ margin-top: 6px; }
+#nav p a 		{ font-size: 16px; color: #000; }
+/*#nav p a:hover 	{ text-decoration: underline; }*/
+
+.navBox {
+	background-color: #EFEFE5;
+	border-right: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	padding: 24px 20px 28px 20px;
+	margin-bottom: 60px;
+	font-size: 14px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 2px 2px 3px #DDD;
+	-webkit-box-shadow: 2px 2px 3px #DDD;
+	box-shadow: 2px 2px 3px #DDD;
+}
+.navBox ul { padding: 0; }
+.navBox ul li {
+
+	list-style-type: none;
+	padding-bottom: 9px;
+
+}
+
+.navBox ul.bulleted li {
+	background: transparent url(../images/carat.gif) no-repeat 0 16px;
+	text-indent: 12px;
+	padding: 10px 0;
+	border-bottom: 1px dotted #9AA18C;
+	font-size: 15px;
+
+}
+.navBox ul.bulleted li div{
+	padding-left: 12px;
+	}
+.navBox ul.bulleted li p{
+		text-indent: 0px;
+		text-align: left;
+	}
+.nav ul.bulleted li p{
+
+	padding-left: 5px 
+}
+.navBox ul.bulleted li p a {
+	color: #000;
+	
+
+	text-decoration: none;
+}
+.navBox ul.bulleted li a {
+	color: #000;
+	text-decoration: none;
+}
+.navBox ul.bulleted li a:hover {
+	color: #264E80; 
+}
+.navBoxcpw {
+	 
+	background-color: #FFFFFF;
+	font-size: 14px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 2px 2px 3px #DDD;
+	-webkit-box-shadow: 2px 2px 3px #DDD;
+	box-shadow: 2px 2px 3px #DDD;
+}
+.navBoxcpw li{
+	font-size:12px;
+	}
+	
+.pageNav {
+	background-color: #EFEFE5;
+	padding: 12px 20px 11px 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	overflow: hidden;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.pageNav ul 		{}
+.pageNav ul li {
+	float: left;
+	list-style-type: none;
+	font-size: 19px;
+	padding-right: 15px;
+}
+.pageNav h4 {
+	font-weight: normal;
+	font-size: 19px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#utilNav {
+	font-size: 12px;
+	float: right;
+	color: #FFF;
+	margin-top: 20px;
+}
+
+#utilNav a {
+	text-decoration: none;
+	padding-left: 12px;
+	color: #FFF;
+	text-transform: uppercase;	
+}
+#utilNav a:hover {
+	text-decoration: underline;
+}
+#utilNav ul li:first-child a {
+	border-right: 1px solid #FFF;
+	padding-right: 12px;
+}
+
+.copyBox, .btn {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.noDecor{
+text-decoration: none;	
+}
+/* Full width page */
+#fullWidth {
+	background-image: url(../images/background-short.gif);	
+}
+#fullWidth #main {
+	padding: 32px 40px 45px 40px;
+}
+
+#fullWidth #main h3{
+	color: #000000;
+	padding-left: 0px;
+	
+}
+/* Login */
+#login #main {
+	padding: 62px 110px 45px 110px;
+}
+
+
+#login #col1 {
+	width: 350px;
+	padding-left: 70px;
+	margin: 0;
+	font-size: 14px;
+}
+
+#login #col2 {
+	border-left: 1px solid #E8E8E8;
+	padding-left: 60px;
+	width: 240px;
+	height: 360px;	
+}
+#login #col2 p {
+	font-size: 17px;
+	margin: 70px 0 0 0;
+}
+
+INPUT
+{
+    font-size: 11px;
+}
+
+SELECT
+{
+    font-size: 11px;
+}
+
+BODY
+{
+    font-size:12px;
+    color: #333;
+	font-family: "Helvetica Neue",HelveticaNeue,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    
+    
+}
+
+/*
+This style is made to make text input borders look similar to a disabled SELECT,
+and also to set the background color of a disabled field (edit box or select or
+text area) to gray.
+*/
+INPUT.FormFieldDisabled, SELECT.FormFieldDisabled, TEXTAREA.FormFieldDisabled
+{
+    color: red;
+    background-color: #ece9d8;
+    border-color: #c9c7ba;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+
+.Alert
+{
+    color:red;
+}
+
+.Bold
+{
+    font-weight:bold;
+}
+
+.Hidden
+{
+    display:none;
+}
+
+.FieldLabel
+{
+    font-size:11px;
+    font-weight:bold;
+}
+
+TD.FieldLabel
+{
+    text-align:right;
+    vertical-align:center;
+}
+
+.FieldValue
+{
+    font-size:11px;
+}
+
+TD.FieldValue
+{
+    vertical-align:center;
+}
+
+.LargeFieldValue
+{
+    font-size:16px;
+}
+
+TD.LargeFieldValue
+{
+    vertical-align:center;
+}
+
+.Required
+{
+
+}
+
+#formarea {
+	padding: 20px 44px 20px 20px;
+	background-color: #FFFFFF;
+	min-height: 460px;
+	height: auto;
+
+}
+#formarea h3{
+	color: #000000;
+}
+#formarea h1 {
+	height: 64px;
+}
+
+#formarea blockquote {
+	margin: -8px 0px 8px 20px;
+}
+
+#formarea hr {
+	margin: 10px 0px 10px 0px;
+	background-color: #000000;
+	height: 1px;
+}
+
+#formarea p.wrap {
+	width: 320px;
+}
+
+#formarea p.wrapsmall {
+    width: 192px;
+}
+
+#headererrormessage
+{
+    position:relative;
+    top:129px;
+    left:0px;
+    height:200px;
+    width:768px
+}
+
+textarea[disabled], input[disabled], select[disabled]
+{
+    color: red;
+    background-color: #ece9d8;
+    border-color: #c9c7ba;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+
+table.autoWidth {
+	width: auto;
+}
+
+table.autoWidth th {
+	text-align:center;
+}
+
+table.autoWidth2 {
+	width: auto;
+}
+
+table.autoWidth2 th {
+	text-align:center;
+}
+
+table.autoWidth2 td {
+	text-align:center;
+}
+
+textarea.smallarea {
+    width:260px;
+    height:60px;
+    font-size:12px;
+    font-family: "Helvetica Neue",HelveticaNeue,Arial,Helvetica,sans-serif;
+}
+
+textarea.smallEssayArea {
+    width:640px;
+    height:70px;
+    font-size:12px;
+    font-family: "Helvetica Neue",HelveticaNeue,Arial,Helvetica,sans-serif;
+}
+
+textarea.largeEssayArea {
+    width:640px;
+    height:100px;
+    font-size:12px;
+ font-family: "Helvetica Neue",HelveticaNeue,Arial,Helvetica,sans-serif;
+}
+
+label em {
+	color: #900;
+	padding-left: 2px;
+}
+
+label.normal {
+	font-weight: normal;
+}
+
+Styles for the guest book
+*/
+#guestbook {
+    width:576px
+}
+
+tr.guestbookheaderlight {
+    color: white;
+    background-color: #555555
+}
+
+tr.guestbookheaderdark {
+    color: white;
+    background-color: #373737
+}
+
+tr.guestbookrowlight {
+    background-color: #EFEFEF
+}
+
+tr.guestbookrowdark {
+    background-color: #CDCDCD
+}
+
+.guestbooknamelabel {
+    font-size:24px;
+    color: #FF9027
+}
+
+tr.guestbookgrid-tr-header {
+    font-weight:bold;
+    background-color: #555555;
+    line-height: 18pt;
+}
+
+tr.guestbookgrid-tr-data {
+    background-color: #EFEFEF;
+    line-height: 18pt;
+}
+
+tr.guestbookgrid-tr-alt-data {
+    background-color: #CDCDCD;
+    line-height: 18pt;
+}
+
+tr.guestbookgrid-tr-footer {}
+
+tr.guestbookgrid-td-data {}
+
+/*
+A.guestbook { color: #FFA800; text-decoration: none }
+A.guestbook:hover { color: #FFA800; text-decoration: underline }
+*/
+
+a.guestbooklinkname { color: #0063A2 !important; text-decoration: none }
+a.guestbooklinkname:hover { color: #0063A2 !important; text-decoration: underline }
+
+a.guestbooklinkorange { color: #EF8D31 !important; text-decoration: none }
+a.guestbooklinkorange:hover { color: #EF8D31 !important; text-decoration: underline }
+
+a.guestbooklinkblack { color: #000000 !important; text-decoration: none }
+a.guestbooklinkblack:hover { color: #000000 !important; text-decoration: underline }
+
+a.guestbooklinkwhite { color: #ffffff !important; text-decoration: none }
+a.guestbooklinkwhite:hover { color: #ffffff !important; text-decoration: underline }
+
+p.trailingSpace {margin-bottom: 1em;}
+
+form.dbform div.radioVertical span { display: block ;padding-left:20px;}
+form.dbform div.radioVertical label  {margin-left: .3em;font-weight:normal;}
+form.dbform div.radioHorizontal {padding-top: 3px;}
+form.dbform div.radioHorizontal span {margin-right: 2em;}
+form.dbform div.radioHorizontal label {margin-left: .3em;font-weight:normal;}
+form.dbform div.radioInline {display:inline;font-weight:normal;}
+form.dbform div.radioInline span {margin-right: 2em;}
+form.dbform div.radioInline label {margin-left: .3em;font-weight:normal;}
+form.dbform div.checkboxVertical span { display: block; padding-top: 1px; padding-left:20px;font-weight:normal;}
+form.dbform div.checkboxVertical label {font-weight:normal;}
+form.dbform div.clear {clear:both;}
+form.dbform .qsetName {font-weight:bold;color:maroon;font-size:17px;}
+form.dbform td.subquestion {padding-left:20px;}
+form.dbform .inlineComment {font-weight: normal; font-style: italic;}
+form.dbform .topComment {text-align:left; font-weight: normal;}
+form.dbform .numbered {padding-left:20px}
+form.dbform .bottomComment {font-weight: normal;}
+form.dbform .indent1 {padding-left: 20px;}
+form.dbform tr.dropdown td.numbered {padding-left:40px;}
+form.dbform tr.dropdown td.notNumbered {font-weight:bold;}
+form.dbform tr.dropdown td {text-align:left; }
+form.dbform div.dropdownVertical select {display: block; margin-bottom: 10px;}
+
+.FieldLabelCPW { font-size:14px; font-weight:normal;}
+
+form.cpw div#alreadyRegistered div#text {margin-top: 1em; margin-bottom: 1em; width: 700px; float: left;}
+form.cpw div#alreadyRegistered div#cancelButton {margin-top: 1em; float: right;}
+form.cpw .emphasizedBody {font-size:17px;}
+form.cpw p.medicalRelease {color:red; font-weight: bold; margin-top: 1em;}
+form.cpw td#guardianHeader .qsetName {font-weight:bold; font-size: 100%; color: black;}
+form.cpw td#arrivalHeader .qsetName {font-weight:bold; font-size: 100%; color: black;}
+form.cpw td#departureHeader .qsetName {font-weight:bold; font-size: 100%; color: black;}
+form.cpw tr#personality td.notNumbered {font-weight: bold;}
+form.cpw tr#personality div {margin-top: 10px; clear:both;}
+form.cpw tr#personality span{min-width: 150px; float: left; font-weight: normal;}
+form.cpw tr#personality span.note {float:none; font-style: italic;}
+form.cpw tr#personality label {margin-left: .3em; font-weight: normal;}
+form.cpw tr#allergies div#checkboxes {width:200px; float: left;}
+form.cpw tr#allergies div#checkboxes label {font-weight:normal}
+form.cpw tr#allergies div#checkBoxDetails span.note {font-style:italic; display: inline}
+form.cpw tr#allergies div#checkBoxDetails {width: 500px; float: left;}
+form.cpw tr#allergies div#checkBoxDetails input { margin: 0;}
+form.cpw tr#identity div#checkboxes {width:300px; float: left;}
+form.cpw tr#identity div#checkboxes label {font-weight:normal}
+form.cpw tr#identity div#checkBoxDetails span.note {font-style:italic; display: inline}
+form.cpw tr#identity div#checkBoxDetails {width: 500px; float: left;}
+form.cpw tr#identity div#checkBoxDetails input { margin: 0;}
+form.cpw span.parentGuardianLabel {text-decoration: underline}
+form.cpw tr#hostresidence td {text-align: left; padding-left: 20px;}
+form.cpw tr#hostresidence select {margin-left: 75px;}
